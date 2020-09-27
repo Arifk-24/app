@@ -1,0 +1,35 @@
+
+
+.button{
+	 background: #fff;
+  border: 1px solid #999;
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 40px;
+  height: 40px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 40px;
+	
+}
+.button:focus {
+  outline: none;
+}
+.row{
+	text-align: center;
+}
+.row:after{
+	clear: both;
+  content: "";
+  display: table;
+}
+h1{
+	text-align: center;
+}
+
+
+
+
