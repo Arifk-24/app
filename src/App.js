@@ -84,21 +84,23 @@ class Board extends React.Component{
 		return(
 		<div>
 		<p class = " status">{status}</p>
-		<div class ="row">
-		{this.rendersquare(0)}
-		{this.rendersquare(1)}
-		{this.rendersquare(2)}
-		</div>
-		<div class= "row">
-		{this.rendersquare(3)}
-		{this.rendersquare(4)}
-		{this.rendersquare(5)}
-		</div>
-		<div class= "row">
-		{this.rendersquare(6)}
-		{this.rendersquare(7)}
-		{this.rendersquare(8)}
-		</div>
+		<table class = "board">		
+		<tr>	    
+		<td>{this.rendersquare(0)}</td>
+		<td>{this.rendersquare(1)}</td>
+		<td>{this.rendersquare(2)}</td>
+		</tr>
+		<tr>
+		<td>{this.rendersquare(3)}</td>
+		<td>{this.rendersquare(4)}</td>
+		<td>{this.rendersquare(5)}</td>
+		</tr>
+		<tr>
+		<td>{this.rendersquare(6)}</td>
+		<td>{this.rendersquare(7)}</td>
+		<td>{this.rendersquare(8)}</td>
+		</tr>
+		</table>
 		</div>
 		);
 	}
